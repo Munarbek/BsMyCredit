@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="#F2F2F2"
+    android:layout_marginBottom="10dp"
+    android:id="@+id/cardViewBid">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="4dp"
+        >
+
+
+        <TextView
+            android:fontFamily="monospace"
+            android:textColor="#000"
+            android:id="@+id/textViewHistoryDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Дата :"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:fontFamily="monospace"
+            android:textColor="#000"
+            android:layout_marginTop="5dp"
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Остаток после плотежа :" />
+        <TextView
+            android:fontFamily="monospace"
+            android:id="@+id/textView2"
+            android:textColor="#000"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="По основной сумме:" />
+        <TextView
+            android:textColor="#000"
+            android:fontFamily="monospace"
+            android:id="@+id/textView3"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="По процентам :" />
+        <TextView
+            android:textColor="#000"
+            android:fontFamily="monospace"
+            android:id="@+id/textView4"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="По плановой платежам :" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
